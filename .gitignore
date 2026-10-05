@@ -45,13 +45,3 @@ results/**/*.txt
 results/**/*.json
 results/**/*.npz
 
-# Generated screenshots/figures (remove these lines if you want to version them)
-screenshots/*.png
-screenshots/*.jpg
-screenshots/*.jpeg
-results/graphs/*.png
-results/graphs/*.jpg
-results/graphs/*.jpeg
-results/validation/*.png
-results/validation/*.jpg
-results/validation/*.jpeg
