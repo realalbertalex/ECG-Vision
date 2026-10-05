@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ECG dataset files — do not commit MIT-BIH records
+data/*.dat
+data/*.hea
+data/*.atr
+data/*.xws
+data/**/*.dat
+data/**/*.hea
+data/**/*.atr
+data/**/*.xws
+mit-bih-arrhythmia-database-1.0.0/
+**/mit-bih-arrhythmia-database-1.0.0/
+
+# Generated analysis exports
+results/**/*.csv
+results/**/*.txt
+results/**/*.json
+results/**/*.npz
+
+# Generated screenshots/figures (remove these lines if you want to version them)
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+results/graphs/*.png
+results/graphs/*.jpg
+results/graphs/*.jpeg
+results/validation/*.png
+results/validation/*.jpg
+results/validation/*.jpeg
